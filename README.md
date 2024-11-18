@@ -1,4 +1,4 @@
-# Dillinger
+# InsightOps
 ## _Anomaly Detection and Log Analysis Tool_
 
 
