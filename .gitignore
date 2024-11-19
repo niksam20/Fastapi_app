@@ -3,3 +3,5 @@ uploads/
 data/raw/
 __pycache__/
 *.log
+
+.vercel
