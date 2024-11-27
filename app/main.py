@@ -17,5 +17,6 @@ async def read_root():
     """Serve the HTML form for uploading files."""
     with open("app/templates/index.html") as f:
         return f.read()
+    
 
 
