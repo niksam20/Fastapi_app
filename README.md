@@ -2,7 +2,7 @@
 ## _Anomaly Detection and Log Analysis Tool_
 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status](https://travis-ci.org/siddharthaaa21/insightops.svg?branch=main)](https://travis-ci.org/siddharthaaa21/insightops)
 
 InsightOps is a fast and scalable anomaly detection and log analysis tool designed to help organizations identify patterns, performance issues, and operational anomalies from log files. It integrates machine learning models for anomaly detection and generates insightful visualizations to assist in troubleshooting and monitoring.
 
@@ -86,8 +86,35 @@ uvicorn app.main:app --reload
 
 
 
+## Screenshots
 
-##Contributing
+
+- **Workflow Image**  
+  ![Project Workflow](images/project-work-flow.jpg)
+  
+- **Docker Image**  
+  ![Docker Image](images/docker-image-fastapi-app.jpg)
+
+- **Docker Build Success**  
+  ![Docker Build Success](images/docker-image-build-success.jpg)
+
+- **Main FastAPI Docs Page**  
+  ![Main FastAPI Docs Page](images/fastapi-main-docs-page.jpg)
+
+- **Upload File (Text Extraction)**  
+  ![Upload File](images/upload_file_text_extraction.png.jpg)
+
+- **Upload Logs (Custom Logs)**  
+  ![Upload Logs](images/upload-file-section.jpg)
+
+- **Parse Log (Parsing Uploaded File)**  
+  ![Parse Log](images/parse-log-section.jpg)
+  
+- **Log Parsing Process(Result)**  
+  ![Log Parsing](images/log_parsing.png.jpg)
+
+
+## Contributing
 We welcome contributions to InsightOps! To contribute:
 
 Fork the repository.
@@ -102,26 +129,3 @@ Create a pull request to the main repository.
 
 
 **Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
